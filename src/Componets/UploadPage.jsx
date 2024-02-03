@@ -6,7 +6,7 @@ import classes from './UploadPage.module.css'
 
 const UploadPage = ({shopData, setShopData}) => {
     const [maincategoryState, setMaincategoryState] = useState('recomend');
-    const [uploadProduct, setUploadProduct] = useState(null);
+    // const [uploadProduct, setUploadProduct] = useState(null);
     const [productTitle1State, setProductTitle1State] = useState(''); //title1
     const [productTitle1Check, setProductTitle1Check] = useState(false);
     const [productTitle2State, setProductTitle2State] = useState(''); //title2
@@ -408,7 +408,7 @@ const UploadPage = ({shopData, setShopData}) => {
             }
         }
         const newUploadProduct = { ...existingProducts, ...newProduct };
-        setUploadProduct(newUploadProduct);
+        // setUploadProduct(newUploadProduct);
         productUploadServer(newUploadProduct, setShopData, productUrlGenerator);
         } else {
             alert('Please check product titles before adding.');
@@ -427,7 +427,7 @@ const UploadPage = ({shopData, setShopData}) => {
                     products: Array.isArray(prevData.products) ? Object.values(product) : product,
                 }));
                 handlerClear();
-                setUploadProduct();
+                // setUploadProduct();
                 const movePage = window.confirm('are you move to Main page?')
                 if(movePage){
                     navigate('/')
@@ -444,7 +444,7 @@ const UploadPage = ({shopData, setShopData}) => {
         const restConfirm = window.confirm('are you sure rest everything?')
         if(restConfirm){
             handlerClear();
-            setUploadProduct();
+            // setUploadProduct();
         } else {
             return
         }
