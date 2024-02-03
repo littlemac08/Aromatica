@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { PiFileArrowUpFill, PiFileArrowUpThin, PiShoppingCartSimpleThin, PiShoppingCartSimpleFill, PiTrashThin, PiTrashFill } from "react-icons/pi";
-import { get, onValue, ref, remove, set } from 'firebase/database';
+import { get, onValue, ref, set } from 'firebase/database';
 import { database } from '../../../Commu/Sdk'
 import { Link } from 'react-router-dom';
 import classes from './Wish.module.css'
@@ -118,10 +118,10 @@ const Wish = ({loginUserState}) => {
       const cartName = item;
   
       // Dynamically create an object with the name derived from cartName
-      const cartObject = {
-        url: cartName,
-        count: 1,
-      };
+      // const cartObject = {
+      //   url: cartName,
+      //   count: 1,
+      // };
   
       // Get the current userCart data from Firebase
       const useRef = ref(database, `users/${loginUserState}/cart`);
