@@ -1,0 +1,208 @@
+.campaign_wrap {
+    width:100%;
+    height:2460px;
+    background:#192116;
+    padding:100px 0 300px 0;
+    color:#fff;
+}
+.campaign_wrap .campaign_box1 {
+    width:100%;
+    height:50%;
+    margin:50px 0 100px 0;
+}
+
+.campaign_wrap .campaign_box1 .campaign_box1_keywords {
+    width:100%;
+    height:30%;
+    display:flex;
+    position:relative;
+}
+.campaign_wrap .campaign_box1 .campaign_box1_keywords_1 {
+    position:absolute;
+    top:10%;
+    left:20%;
+    font-size:70px;
+}
+.campaign_wrap .campaign_box1 .campaign_box1_keywords_2 {
+    position:absolute;
+    top:30%;
+    right:5%;
+    font-size:100px;
+}
+.campaign_wrap .campaign_box1 .campaign_box1_keywords_3 {
+    position:absolute;
+    top:50%;
+    left:55%;
+    font-size:60px;
+}
+.campaign_wrap .campaign_box1 .campaign_box1_main_visual {
+    width:100%;
+    height:70%;
+    position:relative;
+    top:0;
+    left:0;
+}
+.campaign_wrap .campaign_box1 .campaign_box1_main_visual .campaign_box1_main_visual_frame {
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+.campaign_wrap .campaign_box1 .campaign_box1_main_visual .campaign_box1_main_visual_frame .campaign_box1_main_visual_frame_top {
+    width:50%;
+    height:20%;
+}
+.campaign_wrap .campaign_box1 .campaign_box1_main_visual .campaign_box1_main_visual_frame .campaign_box1_main_visual_frame_top img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.campaign_wrap .campaign_box1 .campaign_box1_main_visual .campaign_box1_main_visual_frame .campaign_box1_main_visual_frame_bottom {
+    width:100%;
+    height:80%;
+    display:flex;
+}
+.campaign_wrap .campaign_box1 .campaign_box1_main_visual .campaign_box1_main_visual_frame .campaign_box1_main_visual_frame_bottom .campaign_box1_main_visual_frame_text_wrap {
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}.campaign_wrap .campaign_box1 .campaign_box1_main_visual .campaign_box1_main_visual_frame .campaign_box1_main_visual_frame_bottom .campaign_box1_main_visual_frame_text_wrap .campaign_box1_main_visual_frame_text_title {
+    width:100%;
+    height:80%;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:flex-end;
+    font-size:200px;
+}
+.campaign_wrap .campaign_box1 .campaign_box1_main_visual .campaign_box1_main_visual_frame .campaign_box1_main_visual_frame_bottom .campaign_box1_main_visual_frame_text_wrap .campaign_box1_main_visaul_frame_text_sub {
+    width:100%;
+    height:20%;
+    display:flex;
+    justify-content:flex-end;
+    font-size:25px
+}
+.campaign_wrap .campaign_box1 .campaign_box1_main_visual .campaign_box1_main_visual_frame .campaign_box1_main_visual_frame_bottom .campaign_box1_main_visual_frame_text_wrap .campaign_box1_main_visaul_frame_text_sub .campaign_box1_main_visaul_frame_text_sub_wrap {
+    width:89%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    padding-left:1%;
+}
+.campaign_wrap .campaign_box1 .campaign_box1_main_visual .campaign_box1_main_visual_frame .campaign_box1_main_visual_frame_bottom .campaign_box1_main_visual_frame_text_wrap .campaign_box1_main_visaul_frame_text_sub .campaign_box1_main_visaul_frame_text_sub_more {
+    width:10%;
+    height:100%;
+    display:flex;
+    align-items:flex-end;
+    text-decoration:underline;
+}
+
+.campaign_wrap .campaign_box1 .campaign_box1_main_visual .campaign_box1_main_visual_frame .campaign_box1_main_visual_frame_bottom .campaign_box1_main_visual_frame_2_img {
+    width:50%;
+    height:100%;
+}
+.campaign_wrap .campaign_box1 .campaign_box1_main_visual .campaign_box1_main_visual_frame .campaign_box1_main_visual_frame_bottom .campaign_box1_main_visual_frame_2_img img {
+    width:100%;
+    height:100%;
+    object-fit:cover
+}
+.campaign_wrap .campaign_box1 .campaign_box1_main_visual .campaign_box1_main_visaul_add {
+    width:30%;
+    height:35%;
+    position:absolute;
+    top:10%;
+    left:35%;
+}
+.campaign_wrap .campaign_box1 .campaign_box1_main_visual .campaign_box1_main_visaul_add img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+
+
+.campaign_wrap .campaign_box2 {
+    width:100%;
+    height:50%;
+    margin:50px 0 100px 0;
+    display:flex;
+    flex-direction:column;
+}
+.campaign_wrap .campaign_box2 .campaign_box2_keywords {
+    width:99%;
+    height:10%;
+    font-size:100px;
+    font-weight:lighter;
+    padding-left:1%
+}
+.campaign_wrap .campaign_box2 .campaign_box2_main_visual {
+    width:100%;
+    height:82%;
+    display:flex;
+}
+.campaign_wrap .campaign_box2 .campaign_box2_main_visual .campaign_box2_main_visaul_left {
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+.campaign_wrap .campaign_box2 .campaign_box2_main_visual .campaign_box2_main_visaul_left .campaign_box2_main_visaul_left_img {
+    width:100%;
+    height:60%;
+}
+.campaign_wrap .campaign_box2 .campaign_box2_main_visual .campaign_box2_main_visaul_left .campaign_box2_main_visaul_left_img img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.campaign_wrap .campaign_box2 .campaign_box2_main_visual .campaign_box2_main_visaul_left .campaign_box2_main_visaul_left_text {
+    width:99%;
+    height:40%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    font-size:35px;
+    padding-left:1%;
+}
+
+.campaign_wrap .campaign_box2 .campaign_box2_main_visual .campaign_box2_main_visual_right {
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+.campaign_wrap .campaign_box2 .campaign_box2_main_visual .campaign_box2_main_visual_right .campaign_box2_main_visaul_right_text {
+    width:80%;
+    height:30%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    font-size:35px;
+}
+.campaign_wrap .campaign_box2 .campaign_box2_main_visual .campaign_box2_main_visual_right .campaign_box2_main_visaul_right_img {
+    width:80%;
+    height:60%;
+    object-fit:cover;
+    margin:auto;
+    
+}
+.campaign_wrap .campaign_box2 .campaign_box2_main_visual .campaign_box2_main_visual_right .campaign_box2_main_visaul_right_img img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.campaign_wrap .campaign_box2 .campaign_box2_main_visual .campaign_box2_main_visual_right .campaign_box2_main_visaul_right_more {
+    width:80%;
+    height:10%;
+    margin:auto;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    font-size:25px;
+    text-decoration:underline;
+}
+

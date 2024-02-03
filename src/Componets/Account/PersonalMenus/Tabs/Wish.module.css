@@ -1,0 +1,121 @@
+.wish_tab_wrap {
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    font-weight:lighter;
+}
+
+.wish_tab_title {
+    width:100%;
+    height:10%;
+    display:flex;
+    justify-content:left;
+    align-items:center;
+}
+
+.wish_tab_body{
+    width:100%;
+    height:75%;
+    overflow-y:auto;
+}
+.wish_tab_body_items {
+    width:100%;
+    height:25%;
+    display:flex;
+}
+.wish_tab_body_items > div {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.wish_tab_body_items_no {
+    width:5%;
+    height:100%;
+}
+.wish_tab_body_items > .wish_tab_body_itmes_title {
+    width:45%;
+    height:100%;
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    text-wrap:wrap;
+    margin-left:5px;
+}
+.wish_tab_body_items_price {
+    width:20%;
+    height:100%;
+}
+.wish_tab_body_items > a {
+    width:10%;
+    height:100%;
+}
+.wish_tab_body_items > .wish_tab_body_items_cart,
+.wish_tab_body_items > .wish_tab_body_items_trash {
+    width:10%;
+    height:100%;
+}
+.wish_tab_body_items > a > .wish_tab_body_items_detail {
+    width:100%;
+    height:100%;
+}
+.wish_tab_body_items > a > .wish_tab_body_items_detail,
+.wish_tab_body_items > .wish_tab_body_items_cart,
+.wish_tab_body_items > .wish_tab_body_items_trash {
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    cursor:pointer;
+}
+.wish_tab_body_items > a > .wish_tab_body_items_detail:hover .wish_tab_body_items_detail_icon > div:nth-child(1),
+.wish_tab_body_items > .wish_tab_body_items_cart:hover .wish_tab_body_items_cart_icon > div:nth-child(1),
+.wish_tab_body_items > .wish_tab_body_items_trash:hover .wish_tab_body_items_trash_icon > div:nth-child(1) {
+    opacity:0;
+}
+.wish_tab_body_items > a > .wish_tab_body_items_detail:hover .wish_tab_body_items_detail_icon > div:nth-child(2),
+.wish_tab_body_items > .wish_tab_body_items_cart:hover .wish_tab_body_items_cart_icon > div:nth-child(2),
+.wish_tab_body_items > .wish_tab_body_items_trash:hover .wish_tab_body_items_trash_icon > div:nth-child(2) {
+    opacity:100;
+}
+.wish_tab_body_items_detail_icon,
+.wish_tab_body_items_cart_icon,
+.wish_tab_body_items_trash_icon {
+    width:100%;
+    height:60%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:25px;
+}
+.wish_tab_body_items_detail_icon > div:nth-child(1),
+.wish_tab_body_items_cart_icon > div:nth-child(1),
+.wish_tab_body_items_trash_icon > div:nth-child(1) {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    opacity:100;
+    transition:0.5s;
+}
+.wish_tab_body_items_detail_icon > div:nth-child(2),
+.wish_tab_body_items_cart_icon > div:nth-child(2),
+.wish_tab_body_items_trash_icon > div:nth-child(2) {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    position:absolute;
+    opacity:0;
+    transition:0.5s;
+}
+.wish_tab_body_items > a > .wish_tab_body_items_detail > span,
+.wish_tab_body_items > .wish_tab_body_items_cart > span,
+.wish_tab_body_items > .wish_tab_body_items_trash > span {
+    width:100%;
+    height:40%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:12px;
+}
+

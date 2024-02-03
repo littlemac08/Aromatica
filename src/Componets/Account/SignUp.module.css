@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+.signup_wrap {
+    width:100%;
+    height:1080px;
+    background:#f7f6f3;
+}
+
+    .signup_title {
+        width:95%;
+        height:7.5%;
+        padding-left:5%;
+        padding-top:2.5%;
+        color:#192116;
+    }
+    .signup_title span {
+        font-size:50px;
+        font-weight:lighter;
+    }
+.signup_info_wrap {
+    width:100%;
+    height:75%;
+    display:flex;
+}
+.signup_info_wrap .signup_info {
+    width:30%;
+    height:100%;
+    margin:auto;
+    padding:0 1%;
+    display:flex;
+    flex-direction:column;
+    background-color:#fff;
+    border-radius:15px;}
+
+.signup_info_sub {
+    width:100%;
+    height:5%;
+    font-size:25px;
+    font-weight:lighter;
+}
+    .signup_info_body {
+        width:100%;
+        height:90%;
+        margin:auto;
+        display:flex;
+    }
+    .signup_info_titles {
+        width:30%;
+        height:100%;
+        margin-left:5%;
+    }
+        .signup_info_titles li {
+            width:200px;
+            height:12%;
+            margin:0.25% 0;
+            display:flex;
+            justify-content:left;
+            align-items:center;
+            font-size:25px;
+            font-weight:lighter;
+        }
+    .signup_info_blanks {
+        width:70%;
+        height:100%;
+        margin-left:5%;
+    }
+        .signup_info_blanks li {
+            height:12%;
+            margin:0.25% 0;
+            display:flex;
+            justify-content:left;
+            align-items:center;
+        }
+    .signup_info_blanks_userid {
+        width:100%;
+    }
+        .signup_info_blanks_userid > input {
+            width:80%;
+            height:100%;
+            border:none;
+            outline:none;
+            border-bottom:0.5px solid #192116;
+            text-align:left;
+            font-family: 'Roboto', sans-serif;
+            font-size:25px;
+            font-weight:200;
+            background-color:#fff;
+        }
+        .singup_info_blanks_userid_check {
+            width:20%;
+            height:100%;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        .singup_info_blanks_userid_check > span {
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            position:absolute;
+            font-size:50px;
+            font-weight:lighter;
+            color:#192116;
+            cursor:pointer;
+        }
+        .singup_info_blanks_userid_check .check_blank_icon {
+            font-size:20px;
+        }
+    .signup_info_blanks_userpw {
+        width:80%;
+        height:100%;
+    }
+        .signup_info_blanks_userpw > input {
+            width:100%;
+            height:100%;
+            border:none;
+            outline:none;
+            border-bottom:0.5px solid #192116;
+            font-family: 'Roboto', sans-serif;
+            font-size:25px;
+            background-color:#fff;
+        }
+
+    .signup_info_blanks_userpw_check {
+        width:80%;
+        height:100%;
+    }
+        .signup_info_blanks_userpw_check > input {
+            width:100%;
+            height:100%;
+            border:none;
+            outline:none;
+            border-bottom:0.5px solid #192116;
+            font-family: 'Roboto', sans-serif;
+            font-size:25px;
+            background-color:#fff;
+        }
+    .signup_info_blanks_username {
+        width:80%;
+        height:100%;
+    }
+    .signup_info_blanks_username > input {
+        width:100%;
+        height:99%;
+        border:none;
+        outline:none;
+        border-bottom:0.5px solid #192116;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing:10px;
+        font-size:25px;
+        font-weight:lighter;
+        background-color:#fff;
+    }
+    .signup_info_blanks .signup_info_blanks_gender {
+        width:80%;
+        justify-content:space-between;
+    }
+    .signup_info_blanks .signup_info_blanks_gender div {
+        width:50%;
+        height:100%;
+        display:flex;
+        flex-direction:column;
+        cursor:pointer;
+    }
+    .signup_info_blanks .signup_info_blanks_gender div > span {
+        width:100%;
+        height:50%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .signup_info_blanks .signup_info_blanks_gender div > span:first-child {
+        font-size:20px;
+        font-weight:lighter;
+    }
+    .gender_blank {
+        width:20px;
+        height:20px;
+        border-bottom:0.5px solid #192116;
+    }
+    .signup_info_blanks_phone {
+        width:80%;
+        display:flex;
+    }
+    .signup_info_blanks_phone > input {
+        width:30%;
+        height:100%;
+        border:none;
+        outline:none;
+        border-bottom:0.5px solid #000;
+        font-family: 'Roboto', sans-serif;
+        font-size:20px;
+        font-weight:lighter;
+        text-align:center;
+        background-color:#fff;
+    }
+    .signup_info_blanks_phone > input:nth-child(2) {
+        margin:0 5%;
+    }
+
+    .signup_info_blanks_email {
+        width:80%;
+    }
+    .signup_info_blanks_email > input {
+        height:99%;
+        border:none;
+        outline:none;
+        border-bottom:0.5px solid #192116;
+        font-family: 'Roboto', sans-serif;
+        font-size:20px;
+        font-weight:lighter;
+        background-color:#fff;
+    }
+    .signup_info_blanks_email_id {
+        width:50%;
+    }
+    .signup_info_blanks_email_add {
+        width:40%;
+        text-align:center;
+    }
+    .signup_info_blanks_email > span {
+        width:10%;
+        font-size:25px;
+        font-weight:lighter;
+    }
+    .signup_info_blanks_account {
+        width:80%;
+    }
+    .signup_info_blanks_account > div {
+        width:100%;
+        height:100%;
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        cursor:pointer;
+    }
+    .singup_info_blank_personal {
+        width:50%;
+        height:100%;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .singup_info_blank_business {
+        width:50%;
+        height:100%;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .signup_info_blanks_account > div div span:nth-child(2) {
+        width:100%;
+        height:50%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .signup_info_blanks_account > div div span:nth-child(1) {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+
+    .signup_info_footer {
+        width:70%;
+        height:5%;
+        margin-left:35%;
+    }
+    .signup_info_footer span {
+        display:flex;
+        margin-left:5%;
+        justify-content:flex-start;
+        align-items:flex-start;
+        font-size:25px;
+        color:#FB5622;
+    }
+    
+
+
+
+    .signup_term {
+        width:35%;
+        height:100%;
+        margin:auto;
+        padding:0 1%;
+        display:flex;
+        flex-direction:column;
+        background:#fff;
+        border-radius:15px;
+    }
+    .signup_term_sub {
+        width:100%;
+        height:5%;
+        font-size:25px;
+        font-weight:lighter;
+    }
+    .signup_term_list {
+        width:100%;
+        height:95%;
+        display:flex;
+        flex-direction:column;
+        overflow-y:auto;
+    }
+    .signup_term_list .signup_term_list_items {
+        width:100%;
+        height:20%;
+        margin:5% 0;
+        display:flex;
+    }
+    .signup_term_list .signup_term_list_items .signup_term_list_items_text {
+        width:75%;
+        height:100%;
+        margin:0 2.5%;
+        display:flex;
+        flex-direction:column;
+    }
+    .signup_term_list .signup_term_list_items .signup_term_list_items_text .signup_term_list_items_text_title {
+        width:100%;
+        height:7%;
+        margin-bottom:3%;
+    }
+    .signup_term_list .signup_term_list_items .signup_term_list_items_text .signup_term_list_items_text_doc {
+        width:100%;
+        height:90%;
+        border-bottom:0.5px solid #d3d4d2;
+        overflow-y:auto;
+        font-weight:lighter;
+    }
+    .signup_term_list .signup_term_list_items .signup_term_list_items_check {
+        width:20%;
+        height:100%;
+        cursor:pointer;
+    }
+
+    .signup_term_list .signup_term_list_items .signup_term_list_items_check .term_check {
+        width:100%;
+        height:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:25px;
+    }
+    .signup_term_list .signup_term_list_items .signup_term_list_items_check .term_blank {
+        width:100%;
+        height:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-weight:lighter;
+    }
+
+    .signup_submit {
+        width:100%;
+        height:15%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .signup_submit span {
+        width:200px;
+        height:50%;
+        cursor:pointer;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:25px;
+        font-weight:lighter;
+    }
+    .signup_submit span:nth-child(1) {
+        background:#192116;
+        color:#fff;
+        border:0.5px solid #000;
+    }
+    .signup_submit span:nth-child(2) {
+        margin-left:20px;
+        background:#fff;
+        color:#FB5622;
+        border:0.5px solid #FB5622;
+    }
+    .signup_submit span:nth-child(1):hover {
+        background:#fff;
+        color:#192116;
+        border:0.5px solid #000;
+    }
+    .signup_submit span:nth-child(2):hover {
+        background:#FB5622;
+        color:#192116;
+        border:0.5px solid #FB5622;
+    }

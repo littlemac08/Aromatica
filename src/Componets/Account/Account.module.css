@@ -1,0 +1,129 @@
+.account_modal_wrap {
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:1000;
+}
+.account_modal_wrap .account_modal_bg {
+    width:100%;
+    height:100%;
+    background:#ffffff60;
+    z-index:1100;
+}
+
+.account_modal_wrap .account_modal_table {
+    width:700px;
+    height:800px;
+    background:#fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:15px;
+    box-shadow:1px 1px 5px #000;
+    z-index:1200;
+}
+
+.account_modal_wrap .account_modal_table .account_modal_table_title {
+    width:100%;
+    height:20%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.account_modal_wrap .account_modal_table .account_modal_table_title span {
+    font-size:45px;
+    font-weight:lighter;
+}
+
+
+.account_modal_wrap .account_modal_table .account_modal_table_inputs {
+    width:80%;
+    height:20%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.account_modal_wrap .account_modal_table .account_modal_table_inputs input {
+    width:100%;
+    height:50%;
+    border:none;
+    outline:none;
+    border-bottom:0.5px solid #000;
+    font-size:23px;
+}
+.account_modal_wrap .account_modal_table .account_modal_table_inputs input::placeholder {
+    font-size:23px;
+}
+
+.account_modal_wrap .account_modal_table .account_modal_table_btns {
+    width:80%;
+    height:30%;
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+    margin-top:5%;
+}
+.account_modal_wrap .account_modal_table .account_modal_table_btns > span {
+    width:100%;
+    height:35%;
+    display:flex; 
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+}
+.account_modal_wrap .account_modal_table .account_modal_table_btns .account_modal_table_btns_login {
+    background:#192116;
+    border:1px solid #192116;
+    color:#fff;
+    font-size:25px;
+    font-weight:lighter;
+}
+.account_modal_wrap .account_modal_table .account_modal_table_btns .account_modal_table_btns_joinin {
+    background:#fff;
+    color:#192116;
+    font-size:25px;
+    border:1px solid #192116;
+    font-weight:lighter;
+}
+.account_modal_wrap .account_modal_table .account_modal_table_btns .account_modal_table_btns_text {
+    width:100%;
+    height:15%;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+.account_modal_wrap .account_modal_table .account_modal_table_btns .account_modal_table_btns_text > span {
+    font-size:18px;
+    font-weight:lighter;
+}
+
+.account_modal_wrap .account_modal_table .account_modal_table_btns .account_modal_table_btns_find {
+    width:100%;
+    height:5%;
+    margin-top:5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.account_modal_wrap .account_modal_table .account_modal_table_btns .account_modal_table_btns_find span {
+    font-size:18px;
+    font-weight:lighter;
+    cursor:pointer;
+}
+
+
+.account_modal_wrap .account_modal_table .account_modal_table_sns {
+    width:100%;
+    height:25%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.account_modal_wrap .account_modal_table .account_modal_table_sns span {
+    font-size:55px;
+    margin-left:40px;
+    cursor:pointer;
+}

@@ -1,0 +1,57 @@
+.shop_detail_random_wrap {
+    width:80%;
+    height:450px;
+    margin:30px auto 10px auto;
+    padding-top:30px;
+    border-top:0.5px solid #000;
+}
+.shop_detail_random_wrap .shop_detail_random_items {
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.shop_detail_random_wrap .shop_detail_random_items .shop_detail_random_item {
+    width:24%;
+    height:100%;
+    margin:auto 1%;
+}
+.shop_detail_random_wrap .shop_detail_random_items .shop_detail_random_item .shop_detail_random_item_link {
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.shop_detail_random_item_imgs {
+    width:80%;
+    height:70%;
+}
+.shop_detail_random_item_imgs_imgs {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.shop_detail_random_wrap .shop_detail_random_items .shop_detail_random_item a .shop_detail_random_item_info {
+    width:80%;
+    height:43px;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+.shop_detail_random_wrap .shop_detail_random_items .shop_detail_random_item a .shop_detail_random_item_info .shop_detail_random_item_title {
+    width:50%;
+    height:100%;
+    text-align:left;
+    font-size:18px;
+    font-weight:lighter;
+}
+.shop_detail_random_wrap .shop_detail_random_items .shop_detail_random_item a .shop_detail_random_item_info .shop_detail_random_item_price {
+    width:50%;
+    height:100%;
+    text-align:right;
+    font-size:16px;
+    font-weight:lighter;
+}
